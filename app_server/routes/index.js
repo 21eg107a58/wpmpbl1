@@ -11,8 +11,10 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/about',ctrlothers.about);
+router.get('/home',ctrlothers.home);
 
 router.get('/destination',ctrlothers.destination);
 router.get('/blog',ctrlothers.blog);
+router.get('/contact',ctrlothers.contact);
 
 module.exports = router;
