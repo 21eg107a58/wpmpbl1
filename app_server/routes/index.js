@@ -9,12 +9,15 @@ router.get('/login',ctrlothers.login);
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+router.get('/destination',ctrlothers.destination);
 
 router.get('/about',ctrlothers.about);
-router.get('/home',ctrlothers.home);
 
-router.get('/destination',ctrlothers.destination);
+
+router.get('/paris',ctrlothers.paris);
 router.get('/blog',ctrlothers.blog);
 router.get('/contact',ctrlothers.contact);
+router.get('/bali',ctrlothers.bali);
+router.get('/india',ctrlothers.india);
 
 module.exports = router;

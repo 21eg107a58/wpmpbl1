@@ -5,9 +5,14 @@ html(lang='en')
     meta(name='viewport' content='width=device-width, initial-scale=1.0')
     link(href='https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet')
     title Your Travel Blog
-  <body style="background-color:powderblue;">
- 
+    style
+      | body {
+      |   background-color: powderblue; /* Change this color to your desired background color */
+      | }
     
+    
+
+
 
    
 
@@ -26,7 +31,7 @@ html(lang='en')
               | Home 
               span.sr-only (current)
           li.nav-item
-            a.nav-link(href='/destination') Destinations
+            a.nav-link(href='/destination') destination
           li.nav-item
             a.nav-link(href='/blog') Blog
           li.nav-item
@@ -36,6 +41,19 @@ html(lang='en')
           li.nav-item 
             a.nav-link(href='/login') Login
     // Your content goes here
+    div.jumbotron.jumbotron-fluid.text-center
+      div.container
+        h1.display-4 Travel Blog
+        p.lead Explore the world's most incredible destinations and get inspired for your next adventure.
+        a.btn.btn-primary.btn-lg(href="/destination") Discover Destinations
+
+   
     
+        
+
+    
+        
     script(src='https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js')
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js')
+   
     

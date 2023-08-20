@@ -1,11 +1,15 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: powderblue;  
 }
 
 a {
-  color: #020202;
+  color: #0e0d0d;
+}
+
+nav.navbar{
+  background-color:powderblue;
 }
 
 

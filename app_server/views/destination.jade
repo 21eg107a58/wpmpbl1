@@ -5,44 +5,34 @@ html(lang='en')
     meta(name='viewport' content='width=device-width, initial-scale=1.0')
     link(href='https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet')
     title Destinations - Your Travel Blog
-  body
+  body(style="background-color:powderblue;")
     
+    // Your content goes here
     .container.mt-5
       .row
-        .col-md-4
-          .card.mb-4
-            img.card-img-top(src='https://www.travelescape.in/wp-content/uploads/2020/10/eiffel-tower-Paris.jpg' alt='Destination 1')
-            .card-body
-              h5.card-title Paris, France
-              p.card-text Explore the enchanting streets and iconic landmarks of the City of Lights.
-              a.btn.btn-primary(href='#') Learn More
-        .col-md-4
-          .card.mb-4
-            img.card-img-top(src='https://media1.thrillophilia.com/filestore/m0iiiemwn9g8x92aiv4bav17d4oh_shutterstock_631736717.jpg' alt='Destination 2')
-            .card-body
-              h5.card-title Bali, Indonesia
-              p.card-text Discover pristine beaches and lush landscapes in this tropical paradise.
-              a.btn.btn-primary(href='#') Learn More
-        .col-md-4
-          .card.mb-4
-            img.card-img-top(src='https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/images/optimized/rev-c3635d7/images/Top-Things-to-do-in-Kyoto-Japan.jpg' alt='Destination 3')
-            .card-body
-              h5.card-title Kyoto, Japan
-              p.card-text Immerse yourself in history and tradition in this cultural gem.
-              a.btn.btn-primary(href='#') Learn More
-        .col-md-4
-          .card.mb-4
-            img.card-img-top(src='https://th-thumbnailer.cdn-si-edu.com/pWrOl2---1Rl_9ADVboNFHu21Ss=/fit-in/1600x0/filters:focal(1471x1061:1472x1062)/https%3A%2F%2Ftf-cmsv2-smithsonianmag-media.s3.amazonaws.com%2Ffiler%2Fb6%2F30%2Fb630b48b-7344-4661-9264-186b70531bdc%2Fistock-478831658.jpg' alt='Destination 2')
-            .card-body
-              h5.card-title Taj Mahal, India
-              p.card-text The magic of love's greatest monument.
-              a.btn.btn-primary(href='#') Learn More
-        .col-md-4
-          .card.mb-4
-            img.card-img-top(src='https://1.bp.blogspot.com/-klHXHFbBkcg/Vh_oH8aFeyI/AAAAAAAADkI/WvdVpR4LWTc/s1600/CORT-NYC-StudyUSA07.jpg' alt='Destination 3')
-            .card-body
-              h5.card-title New York,USA
-              p.card-text The City That Never Sleeps.
-              a.btn.btn-primary(href='#') Learn More
-        // Add more destinations as needed
+        .col-md-8.offset-md-2
+          h1(style="color: #333;") Explore Exciting Destinations
+          p(style="color: #666;") Discover some of the world's most captivating destinations that offer unique experiences, breathtaking landscapes, and rich cultures. Whether you're an adventure seeker, a history enthusiast, or a food lover, these destinations have something special to offer.
+          
+          .card-deck
+            .card
+              img.card-img-top(src='https://www.travelescape.in/wp-content/uploads/2020/10/eiffel-tower-Paris.jpg' alt='Paris, France')
+              .card-body
+                h5.card-title(style="color: #333;") Paris, France
+                p.card-text(style="color: #666;") Explore the enchanting streets and iconic landmarks of the City of Lights.
+                a.btn.btn-primary(href='/paris') Learn More
+            .card
+              img.card-img-top(src='https://media1.thrillophilia.com/filestore/m0iiiemwn9g8x92aiv4bav17d4oh_shutterstock_631736717.jpg' alt='Bali, Indonesia')
+              .card-body
+                h5.card-title(style="color: #333;") Bali, Indonesia
+                p.card-text(style="color: #666;") Discover pristine beaches and lush landscapes in this tropical paradise.
+                a.btn.btn-primary(href='/bali') Learn More
+            .card
+              img.card-img-top(src='https://th-thumbnailer.cdn-si-edu.com/pWrOl2---1Rl_9ADVboNFHu21Ss=/fit-in/1600x0/filters:focal(1471x1061:1472x1062)/https%3A%2F%2Ftf-cmsv2-smithsonianmag-media.s3.amazonaws.com%2Ffiler%2Fb6%2F30%2Fb630b48b-7344-4661-9264-186b70531bdc%2Fistock-478831658.jpg' alt='Taj Mahal, India')
+              .card-body
+                h5.card-title(style="color: #333;") Taj Mahal, India
+                p.card-text(style="color: #666;") The magic of love's greatest monument.
+                a.btn.btn-primary(href='/india') Learn More
+            
+    
     script(src='https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js')
