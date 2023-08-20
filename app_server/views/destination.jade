@@ -1,0 +1,34 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    link(href='https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet')
+    title Destinations - Your Travel Blog
+  body
+    
+    .container.mt-5
+      .row
+        .col-md-4
+          .card.mb-4
+            img.card-img-top(src='images/destination1.jpg' alt='Destination 1')
+            .card-body
+              h5.card-title Paris, France
+              p.card-text Explore the enchanting streets and iconic landmarks of the City of Lights.
+              a.btn.btn-primary(href='#') Learn More
+        .col-md-4
+          .card.mb-4
+            img.card-img-top(src='images/destination2.jpg' alt='Destination 2')
+            .card-body
+              h5.card-title Bali, Indonesia
+              p.card-text Discover pristine beaches and lush landscapes in this tropical paradise.
+              a.btn.btn-primary(href='#') Learn More
+        .col-md-4
+          .card.mb-4
+            img.card-img-top(src='images/destination3.jpg' alt='Destination 3')
+            .card-body
+              h5.card-title Kyoto, Japan
+              p.card-text Immerse yourself in history and tradition in this cultural gem.
+              a.btn.btn-primary(href='#') Learn More
+        // Add more destinations as needed
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js')
