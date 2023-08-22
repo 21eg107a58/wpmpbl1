@@ -5,16 +5,12 @@ module.exports.login=function(req,res){
 module.exports.about=function(req,res){
     res.render('about',{title:'about'});
 };
-module.exports.destination=function(req,res){
-    res.render('destination');
+module.exports.Destination=function(req,res){
+    res.render('Destination');
 }
 
 module.exports.paris=function(req,res){
     res.render('paris');
-};
-
-module.exports.blog=function(req,res){
-    res.render('blog');
 };
 
 

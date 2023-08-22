@@ -9,13 +9,13 @@ router.get('/login',ctrlothers.login);
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
-router.get('/destination',ctrlothers.destination);
+router.get('/Destination',ctrlothers.Destination);
 
 router.get('/about',ctrlothers.about);
 
 
 router.get('/paris',ctrlothers.paris);
-router.get('/blog',ctrlothers.blog);
+
 router.get('/contact',ctrlothers.contact);
 router.get('/bali',ctrlothers.bali);
 router.get('/india',ctrlothers.india);
